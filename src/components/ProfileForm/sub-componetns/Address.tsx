@@ -29,6 +29,7 @@ export const Addresses = observer(
         </div>
         {addresses.map((address) => (
           <AddressCard
+            key={address.id}
             address={address}
             type={type}
             onEdit={(addr: Address) => {

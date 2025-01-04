@@ -79,6 +79,7 @@ function Header() {
             userStore.logout();
             navigate('/main');
             cartStore.createTempCart();
+            cartStore.clearCartTotalItems();
           }
         : () => navigate('/login'),
     },

@@ -347,6 +347,10 @@ class CartStore {
   getCurrentTempCartID(): string | undefined {
     return localStorage.getItem('temp_cart_id') || undefined;
   }
+
+  clearCartTotalItems(): void {
+    this._totalItems = 0;
+  }
 }
 
 export const cartStore = new CartStore();
