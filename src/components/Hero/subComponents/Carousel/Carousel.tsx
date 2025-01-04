@@ -35,7 +35,7 @@ function Carousel() {
             <CustomButton
               style={{ width: '170px' }}
               variety="common"
-              href="https://codefrondlers.store/jsfe23q4/api-docs/"
+              href="http://localhost:3000/api-docs/"
               target="a_blank"
               htmlType="button"
             >
