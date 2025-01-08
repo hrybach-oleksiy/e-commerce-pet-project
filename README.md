@@ -25,7 +25,7 @@ This is an educational project for an online store as part of the educational pr
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/hrybach-oleksiy/e-commerce-pet-project/tree/develop
+$ git clone https://github.com/hrybach-oleksiy/e-commerce-pet-project.git
 
 # Navigate to the project folder
 $ cd eCommerce-App
